@@ -1,0 +1,11 @@
+product_name,quantity,min_stock,unit_price,status
+Espresso Single Shot,250,50,20000,in-stock
+Cappuccino,180,40,32000,in-stock
+Latte,120,40,35000,low-stock
+Americano,280,60,22000,in-stock
+Mocha,100,30,38000,low-stock
+Iced Latte,75,25,35000,low-stock
+Croissant Butter,35,15,45000,in-stock
+Chocolate Cake,12,5,60000,in-stock
+Cheesecake,8,5,65000,low-stock
+Donut Glazed,60,25,35000,in-stock

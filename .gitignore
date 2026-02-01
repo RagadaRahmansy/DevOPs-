@@ -1,0 +1,43 @@
+# Dependencies
+**/node_modules
+**/yarn.lock
+# Abaikan semua package-lock.json...
+**/package-lock.json
+# ...KECUALI yang ada di root folder backend. Ini penting untuk CI.
+!/backend/package-lock.json
+
+# Environment Variables
+# Abaikan semua file .env di mana pun lokasinya.
+**/.env*
+# Tapi jangan abaikan file contoh.
+!**/.env.example
+
+# Build & Output
+**/build
+**/dist
+**/out
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE Config
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+
+# Temporary Files
+*.tmp
+temp/

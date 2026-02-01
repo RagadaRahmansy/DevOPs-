@@ -1,0 +1,21 @@
+name,category,price,cost,description
+Espresso Single Shot,Coffee,20000,5000,Classic espresso shot
+Espresso Double Shot,Coffee,28000,7000,Double espresso
+Americano,Coffee,22000,6000,Espresso with hot water
+Cappuccino,Coffee,32000,10000,Espresso with steamed milk
+Latte,Coffee,35000,11000,Smooth and creamy
+Macchiato,Coffee,30000,9000,Espresso with milk foam
+Flat White,Coffee,35000,11000,Velvety microfoam
+Mocha,Coffee,38000,12000,Coffee with chocolate
+Caramel Latte,Coffee,40000,13000,Latte with caramel
+Vanilla Latte,Coffee,38000,12000,Latte with vanilla
+Iced Americano,Iced Coffee,25000,7000,Cold americano
+Iced Latte,Iced Coffee,35000,11000,Cold latte
+Fresh Orange Juice,Beverages,28000,8000,Freshly squeezed
+Mango Juice,Beverages,30000,9000,Fresh mango juice
+Croissant Butter,Pastry,45000,15000,Fresh butter croissant
+Pain au Chocolate,Pastry,50000,16000,Chocolate pastry
+Chocolate Cake,Cake,60000,20000,Rich chocolate cake
+Cheesecake,Cake,65000,22000,New York cheesecake
+Caesar Salad,Food,50000,15000,With grilled chicken
+Sandwich Ham & Cheese,Food,55000,18000,Classic sandwich

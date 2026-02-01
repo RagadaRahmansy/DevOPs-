@@ -1,0 +1,15 @@
+name,category,price,cost,description
+Espresso Single Shot,Coffee,20000,5000,Classic espresso shot
+Espresso Double Shot,Coffee,28000,7000,Double espresso
+Americano,Coffee,22000,6000,Espresso with hot water
+Cappuccino,Coffee,32000,10000,Espresso with steamed milk
+Latte,Coffee,35000,11000,Smooth and creamy
+Macchiato,Coffee,30000,9000,Espresso with milk foam
+Flat White,Coffee,35000,11000,Velvety microfoam
+Mocha,Coffee,38000,12000,Coffee with chocolate
+Caramel Latte,Coffee,40000,13000,Latte with caramel
+Vanilla Latte,Coffee,38000,12000,Latte with vanilla
+Iced Americano,Iced Coffee,25000,7000,Cold americano
+Iced Latte,Iced Coffee,35000,11000,Cold latte
+Iced Cappuccino,Iced Coffee,35000,11000,Cold cappuccino
+Iced Mocha,Iced Coffee,40000,13000,Cold mocha
