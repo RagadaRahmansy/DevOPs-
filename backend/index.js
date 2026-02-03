@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const pool = require('./config/database');
+// const pool = require('./config/database'); // Dihapus karena tidak digunakan di file ini
 
 const app = express();
 
@@ -25,7 +25,8 @@ app.get('/health', (req, res) => {
 });
 
 // Error handler
-app.use((err, req, res, next) => {
+// Parameter 'next' dihapus karena tidak digunakan
+app.use((err, req, res) => {
   console.error(err);
   res.status(err.status || 500).json({
     error: err.message || 'Internal server error'

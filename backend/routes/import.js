@@ -48,7 +48,7 @@ function generateInsertSQL(tableName, data) {
       if (typeof value === 'boolean') {
         return value ? 'true' : 'false';
       }
-      const escaped = String(value).replace(/'/g, "''");
+      const escaped = String(value).replace(/'/g, '\'\'');
       return `'${escaped}'`;
     });
     return `(${rowValues.join(', ')})`;
@@ -59,7 +59,7 @@ function generateInsertSQL(tableName, data) {
 }
 
 // POST /upload - Upload Excel file
-router.post('/upload', auth, (req, res, next) => {
+router.post('/upload', auth, (req, res) => {
   // Call multer middleware manually
   const uploadSingle = upload.single('file');
   uploadSingle(req, res, function(err) {
